@@ -150,7 +150,7 @@ func TestJSONSchema(t *testing.T) {
 					},
 				},
 			},
-			error: "linux.seccomp.architectures.1: linux.seccomp.architectures.1 must be one of the following: \"SCMP_ARCH_X86\", \"SCMP_ARCH_X86_64\", \"SCMP_ARCH_X32\", \"SCMP_ARCH_ARM\", \"SCMP_ARCH_AARCH64\", \"SCMP_ARCH_MIPS\", \"SCMP_ARCH_MIPS64\", \"SCMP_ARCH_MIPS64N32\", \"SCMP_ARCH_MIPSEL\", \"SCMP_ARCH_MIPSEL64\", \"SCMP_ARCH_MIPSEL64N32\", \"SCMP_ARCH_PPC\", \"SCMP_ARCH_PPC64\", \"SCMP_ARCH_PPC64LE\", \"SCMP_ARCH_S390\", \"SCMP_ARCH_S390X\", \"SCMP_ARCH_PARISC\", \"SCMP_ARCH_PARISC64\"",
+			error: "linux.seccomp.architectures.1: linux.seccomp.architectures.1 must be one of the following: \"SCMP_ARCH_X86\", \"SCMP_ARCH_X86_64\", \"SCMP_ARCH_X32\", \"SCMP_ARCH_ARM\", \"SCMP_ARCH_AARCH64\", \"SCMP_ARCH_MIPS\", \"SCMP_ARCH_MIPS64\", \"SCMP_ARCH_MIPS64N32\", \"SCMP_ARCH_MIPSEL\", \"SCMP_ARCH_MIPSEL64\", \"SCMP_ARCH_MIPSEL64N32\", \"SCMP_ARCH_PPC\", \"SCMP_ARCH_PPC64\", \"SCMP_ARCH_PPC64LE\", \"SCMP_ARCH_S390\", \"SCMP_ARCH_S390X\", \"SCMP_ARCH_PARISC\", \"SCMP_ARCH_PARISC64\" \"SCMP_ARCH_RISCV64\"",
 		},
 		{
 			config: &rspec.Spec{
